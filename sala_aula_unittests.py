@@ -3,7 +3,7 @@ import unittest
 
 class SalaAulaUnitTests(unittest.TestCase):
 
-    # Verificando se h? apenas 3 alunos.
+    # Verificando se há apenas 3 alunos.
     def test_01_alunos_retorna_lista_inical(self):
         r1 = requests.delete('http://localhost:5000/alunos/resetar')
         self.assertEqual(r1.status_code,202)
